@@ -1,25 +1,41 @@
 baseURL: "https://kirdik.github.io/"
 title: "Записки архивариуса"
 theme: "PaperMod"
-
+enableRobotsTXT: true
 languageCode: "ru-ru"
 defaultContentLanguage: "ru"
+
+label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
 
 params:
   # Основные параметры
   profileMode:
     enabled: true
-    title: "Привет! 👋"
-    subtitle: "Это мой новый сайт на Hugo"
-    imageUrl: "/logo.png"  # положите файл в static/logo.png
-    imageTitle: "Логотип"
+    title: "Кирилл В. Чеботарёв"
+    subtitle: "Записки о фольклоре, архивах и сопутствующих технологиях."
+    imageUrl: "/userpic-round@2x.jpg"  # положите файл в static/logo.png
+    imageTitle: ":-)"
+
     
   # Настройки социальных иконок (по желанию)
   socialIcons:
     - name: "github"
       url: "https://github.com/kirdik"
-    - name: "twitter"
-      url: "https://twitter.com/yourusername"
+    - name: "vk"
+      url: "https://vk.com/kirill.chebotarev"
+    - name: "telegram"
+      url: "https://t.me/folkarchiv"
+    - name: "youtube"
+      url: "https://www.youtube.com/@kircheba"
 
 # Пагинация (важно для исправления ошибки)
 pagination:
@@ -28,19 +44,28 @@ pagination:
 # Меню
 menu:
   main:
-    - identifier: "posts"
-      name: "Статьи"
-      url: "/posts/"
-      weight: 10
-    - identifier: "tags"
-      name: "Теги"
-      url: "/tags/"
-      weight: 20
-    - identifier: "search"
-      name: "Поиск"
-      url: "/search/"
-      weight: 30
+    - identifier: "folklore"
+      name: "Фольклор"
+      url: "/folklore/"
+      weight: 10 
     - identifier: "archives"
       name: "Архив"
       url: "/archives/"
+      weight: 20
+    - identifier: "sound"
+      name: ""
+      url: "/sound/"
+      weight: 30
+    - identifier: "it"
+      name: "АйТи"
+      url: "/it/"
       weight: 40
+    - identifier: "tags"
+      name: "Теги"
+      url: "/tags/"
+      weight: 50
+    - identifier: "search"
+      name: "Поиск"
+      url: "/search/"
+      weight: 60
+   

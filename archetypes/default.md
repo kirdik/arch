@@ -1,5 +1,36 @@
 ---
-date: '{{ .Date }}'
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+# weight: 1
+# aliases: ["/first"]
+tags: []
+author: "Кирилл В. Чеботарёв"
+# author: ["Me", "You"] 
+showToc: true
+TocOpen: false
 draft: true
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+hidemeta: false
+comments: false
+description: ""
+canonicalURL: ""
+disableHLJS: false
+disableShare: false
+hideSummary: false
+searchHidden: false
+ShowReadingTime: true
+ShowBreadCrumbs: true
+ShowPostNavLinks: true
+ShowWordCount: true
+ShowRssButtonInSectionTermList: true
+UseHugoToc: true
+cover:
+    image: "" 
+    alt: "" 
+    caption: "" 
+    relative: false 
+    hidden: false 
+editPost:
+    URL: "https://github.com/kirdik/kirdik.github.io/tree/main/content"
+    Text: "Suggest Changes" 
+    appendFilePath: true 
 ---
