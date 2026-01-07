@@ -17,7 +17,7 @@ params:
   # Настройки социальных иконок (по желанию)
   socialIcons:
     - name: "github"
-      url: "https://github.com/yourusername"
+      url: "https://github.com/kirdik"
     - name: "twitter"
       url: "https://twitter.com/yourusername"
 
