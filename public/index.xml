@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Мой новый сайт</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Мой новый сайт</description>
+    <generator>Hugo -- 0.154.2</generator>
+    <language>ru-ru</language>
+    <lastBuildDate>Sun, 07 Jan 2024 16:00:00 +0300</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Полное руководство по Hugo и PaperMod</title>
+      <link>http://localhost:1313/it/test/</link>
+      <pubDate>Sun, 07 Jan 2024 16:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/it/test/</guid>
+      <description>Пошаговое руководство по созданию блога на Hugo с темой PaperMod</description>
+    </item>
+    <item>
+      <title>Проба пост</title>
+      <link>http://localhost:1313/posts/first/</link>
+      <pubDate>Sun, 07 Jan 2024 16:00:00 +0300</pubDate>
+      <guid>http://localhost:1313/posts/first/</guid>
+      <description>ПРазмышляем о фольклоре</description>
+    </item>
+  </channel>
+</rss>

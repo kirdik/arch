@@ -1,0 +1,46 @@
+baseURL: "http://localhost:1313/"
+title: "Мой новый сайт"
+theme: "PaperMod"
+
+languageCode: "ru-ru"
+defaultContentLanguage: "ru"
+
+params:
+  # Основные параметры
+  profileMode:
+    enabled: true
+    title: "Привет! 👋"
+    subtitle: "Это мой новый сайт на Hugo"
+    imageUrl: "/logo.png"  # положите файл в static/logo.png
+    imageTitle: "Логотип"
+    
+  # Настройки социальных иконок (по желанию)
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/yourusername"
+    - name: "twitter"
+      url: "https://twitter.com/yourusername"
+
+# Пагинация (важно для исправления ошибки)
+pagination:
+  pagerSize: 10
+
+# Меню
+menu:
+  main:
+    - identifier: "posts"
+      name: "Статьи"
+      url: "/posts/"
+      weight: 10
+    - identifier: "tags"
+      name: "Теги"
+      url: "/tags/"
+      weight: 20
+    - identifier: "search"
+      name: "Поиск"
+      url: "/search/"
+      weight: 30
+    - identifier: "archives"
+      name: "Архив"
+      url: "/archives/"
+      weight: 40
