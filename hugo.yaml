@@ -68,4 +68,8 @@ menu:
       name: "Поиск"
       url: "/search/"
       weight: 60
+    - identifier: "about"
+      name: "About"
+      url: "/about/"
+      weight: 70
    
