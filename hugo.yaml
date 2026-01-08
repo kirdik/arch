@@ -47,11 +47,11 @@ menu:
     - identifier: "folklore"
       name: "Фольклор"
       url: "/folklore/"
-      weight: 10 
+      weight: 20 
     - identifier: "archives"
       name: "Архив"
       url: "/archives/"
-      weight: 20
+      weight: 10
     - identifier: "sound"
       name: ""
       url: "/sound/"
