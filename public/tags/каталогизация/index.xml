@@ -6,8 +6,16 @@
     <description>Recent content in Каталогизация on Записки архивариуса</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Thu, 08 Jan 2026 00:59:32 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Jan 2026 18:29:09 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%D0%BA%D0%B0%D1%82%D0%B0%D0%BB%D0%BE%D0%B3%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Зачем указывать паспорт записи в публикации?</title>
+      <link>http://localhost:1313/archives/pasport-of-record/</link>
+      <pubDate>Thu, 08 Jan 2026 18:29:09 +0300</pubDate>
+      <guid>http://localhost:1313/archives/pasport-of-record/</guid>
+      <description>Вот вариант **от первого лица**, объём около 100 слов:
+В этом тексте я объясняю, зачем в научных и популярно-научных публикациях необходимо указывать паспорт фольклорной записи. Я рассматриваю паспорт как ключ к точной идентификации материала, позволяющий понять, где, когда и кем была сделана запись, а также кто является её исполнителем. Я подчёркиваю важность указания хотя бы минимального набора данных: места и даты фиксации, имени записавшего, названия фрагмента и сведений об информанте. При возможности я рекомендую дополнять паспорт биографическими и архивными данными. Такой подход обеспечивает научную корректность, воспроизводимость исследований и уважение к носителям традиции.</description>
+    </item>
     <item>
       <title>Список фольклорных архивов</title>
       <link>http://localhost:1313/archives/archives-list/</link>
