@@ -57,7 +57,7 @@ menu:
       url: "/sound/"
       weight: 30
     - identifier: "it"
-      name: "АйТи"
+      name: "Технология"
       url: "/it/"
       weight: 40
     - identifier: "tags"
