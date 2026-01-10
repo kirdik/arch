@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://kirdik.github.io/sitemap.xml

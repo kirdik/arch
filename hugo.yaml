@@ -5,16 +5,16 @@ enableRobotsTXT: true
 languageCode: "ru-ru"
 defaultContentLanguage: "ru"
 
-label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
-
 outputs:
   home:
     - HTML
     - RSS
     - JSON
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
 
 params:
   # Основные параметры
@@ -24,6 +24,7 @@ params:
     subtitle: "Записки о фольклоре, архивах и сопутствующих технологиях."
     imageUrl: "/userpic-round@2x.jpg"  # положите файл в static/logo.png
     imageTitle: ":-)"
+
 
     
   # Настройки социальных иконок (по желанию)

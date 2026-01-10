@@ -6,8 +6,22 @@
     <description>Recent content on Записки архивариуса</description>
     <generator>Hugo -- 0.154.2</generator>
     <language>ru-ru</language>
-    <lastBuildDate>Thu, 08 Jan 2026 18:29:09 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Jan 2026 02:28:38 +0300</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>gallery-test</title>
+      <link>http://localhost:1313/folklore/gallery-test/</link>
+      <pubDate>Fri, 09 Jan 2026 02:28:38 +0300</pubDate>
+      <guid>http://localhost:1313/folklore/gallery-test/</guid>
+      <description>&lt;!-- Текст статьи начинается здесь.
+Картинки можно просто перетаскивать в эту папку. --&gt;
+&lt;div class=&#34;gallery&#34;&gt;
+  &lt;img alt=&#34;проба раз&#34; loading=&#34;lazy&#34; src=&#34;1764110260722-3e5jvr2zwee.png&#34;&gt;
+&lt;img alt=&#34;проба три&#34; loading=&#34;lazy&#34; src=&#34;photo_2024-09-18_20-11-32.jpg&#34;&gt;
+&lt;img alt=&#34;тест&#34; loading=&#34;lazy&#34; src=&#34;bfa9fd33c341fae037396f4c1cbc5c92_1764109705_0b4904sn.png&#34;&gt;
+&lt;img alt=&#34;тест 5&#34; loading=&#34;lazy&#34; src=&#34;1764109498125-am7j7ovmq8.png&#34;&gt;
+&lt;/div&gt;</description>
+    </item>
     <item>
       <title>Зачем указывать паспорт записи в публикации?</title>
       <link>http://localhost:1313/archives/pasport-of-record/</link>
