@@ -29,6 +29,10 @@ params:
     - it
     - whater
   ShowPostMeta: true
+  author:
+    name: "Кирилл В. Чеботарёв"
+    email: "kirill.chebotarev@gmail.com" # если нужно
+    link: "https://kirdik.github.io"
 
     
   # Настройки социальных иконок (по желанию)
